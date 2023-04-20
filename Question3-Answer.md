@@ -1,6 +1,6 @@
 # Please fix, optimize, and/or modify the component as much as you think is necessary.
 
-## Modified Optimised Code
+## 🚀Modified and Optimised Code
 
 ```code
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
@@ -75,7 +75,7 @@ List.propTypes = {
 export default List;
 ```
 
-## Changes I made:-
+## 💫Changes I made:-
 
 1. I used `useCallback` to memoize the `handleClick` function in the `List` component, which is passed as a prop to the `SingleListItem` component. This improves performance by ensuring that the same function instance is used across renders unless its dependencies change.
 
@@ -94,3 +94,10 @@ PropTypes.arrayOf(PropTypes.shape(...))
 ```
 
 Overall, the changes made improve performance by reducing unnecessary function calls and rendering, and simplify the code by removing unnecessary components and simplifying the `useEffect` hook.
+
+### ⚡Output running of the modified code with no errors/warnings:-
+
+![image](https://user-images.githubusercontent.com/73993775/233456109-45149df6-1f62-401e-918f-bd7b5541d485.png)
+
+The background color changes to green on clicking any item:<br><br>
+![image](https://user-images.githubusercontent.com/73993775/233456132-9c5ce0b6-9ba0-4dc3-8a3a-763241ee11e6.png)
