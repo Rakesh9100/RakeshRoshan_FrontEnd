@@ -1,6 +1,6 @@
 # What problems / warnings are there with code?
 
-## Compilation Warnings received on the npm cmd terminal:-
+## ⚡Compilation Warnings received on the npm cmd terminal:-
 
 ```warnings
 Compiled with warnings.
@@ -19,7 +19,7 @@ src\List.js
 webpack compiled with 1 warning
 ```
 
-## Errors received on the localhost:3000:-
+## 💥Errors received on the localhost:3000:-
 
 ```errors
 Compiled with problems:
@@ -38,6 +38,7 @@ TypeError: prop_types__WEBPACK_IMPORTED_MODULE_2___default(...).shapeOf is not a
     at ./src/index.js (http://localhost:3000/static/js/bundle.js:239:62)
     at options.factory (http://localhost:3000/static/js/bundle.js:42388:31)
 ```
+<br>
 
 1. In the `WrappedListComponent`, the `setSelectedIndex` should be declared as a function that will set the selected index. Currently, it is being used as a variable, which will not update the state properly.
 2. The PropTypes definition for the `items` prop in `WrappedListComponent` is not correct. The correct syntax for defining an array of objects is
