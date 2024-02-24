@@ -1,4 +1,4 @@
-<h1 align="center">SteelEye Frontend Engineer Assignment</h1>
+<h1 align="center">📝SteelEye Frontend Engineer Assignment📝</h1>
 
 ## React Component Code Review
 
